@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 style="text-align: center;">BUDGET APP</h1>
+<div class="container">
+<div class="left_content">
+    <h1>BUDGET</h1>
+<input type="text" placeholder="Enter Budget" id="budget">
+<div id="error">
+
+</div>
+<button onclick="Get_budget()">Add Budget</button>
+</div>
+
+<div class="right_content">
+    <h1>Expense</h1>
+    <input type="text" placeholder="Product name" id="Product">
+    <br>
+    <input type="text" placeholder="Enter Expense" id="Expense">
+    <br>
+    <div id="rror2">
+        
+    </div>
+
+    <input type="date" id="date">
+  
+    <button onclick="put_expense()">Add Expense</button>
+
+
+
+</div>
+
+    </div>
+<div class="All_cont">
+<div id="showing_content">
+  
+</div>
+<div id="showing_expense">
+
+</div>
+<div id="after">
+
+</div>
+
+</div>
+ 
+<div id="main_content">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="/app.js"></script>
+</body>
+</html>
